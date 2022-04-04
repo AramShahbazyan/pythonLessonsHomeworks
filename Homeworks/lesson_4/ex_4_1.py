@@ -5,12 +5,10 @@
 r = int(input('input radius r: '))
 x = int(input('input coordinate x: '))
 y = int(input('input coordinate y: '))
-cords_xy = x ** 2 + y ** 2
-print(cords_xy)
-print(r ** 2)
-if cords_xy <= r ** 2:
+sides_triangle = x ** 2 + y ** 2
+
+if sides_triangle <= r ** 2:
     print('x;y coordinate is belongs to the circle')
 else:
-    print('x;y coordinate is belongs to the circle')
-# else:
-# print('xy coordinate is belongs to the circle')
+    print('x;y coordinate is not belongs to the circle')
+
