@@ -1,14 +1,14 @@
 text1 = 'welcome To the  Armenian /Year 2022/'
-print(text1.capitalize())
-print(text1.casefold())
-print(text1.center(55))
-# ?
-print(text1.count('2'))
-print(text1.encode())
-# ?
-print(text1.endswith('2'))
-print(text1.expandtabs(1))
-# ?
+# print(text1.capitalize())
+# print(text1.casefold())
+# print(text1.center(55))
+# # ?
+# print(text1.count('2'))
+# print(text1.encode())
+# # ?
+# print(text1.endswith('2'))
+# print(text1.expandtabs(1))
+# # ?
 print(text1.find('T'))
 print(text1.format(price=52))
 # print(text1.format_map())
