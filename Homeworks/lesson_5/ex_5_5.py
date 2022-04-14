@@ -6,5 +6,5 @@
 min_num = int(input("input minimum number: "))
 max_num = int(input("input maximum number: "))
 step_num = int(input("input step number: "))
-for i in range(min_num, max_num, step_num):
+for i in range(min_num, max_num + 1, step_num):
     print(i)
