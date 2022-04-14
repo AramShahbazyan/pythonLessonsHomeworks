@@ -13,3 +13,4 @@ for j in range(-1, -len(lists) - 1, -1):
     new_list.append(lists[j])
 for k in new_list:
     print(f'{int(k)}', end='')
+
