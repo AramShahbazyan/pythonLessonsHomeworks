@@ -10,7 +10,5 @@ def my_list(first_list: list):
                 mult_list.append(j)
     print(mult_list)
 
-        for k in mult_list:
 
-
-my_list([4, 5, 6, 7, 10])
+my_list([12, 5, 66, 7, 10])
