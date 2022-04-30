@@ -30,4 +30,4 @@ def create_max_mult_list(ls: list):
     return result
 
 
-print(create_max_mult_list([122, 150, 666, 98, 10]))
+print(create_max_mult_list([1562, 150, 666, 98, 10]))
