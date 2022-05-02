@@ -8,7 +8,7 @@ from random import randint
 def matrix(x: int):
     mat = []
     for i in range(x):
-        list_2 = [randint(1, 100) for i in range(10)]
+        list_2 = [randint(1, 100) for _ in range(10)]
         mat.append(list_2)
     for i in mat:
         print(i)

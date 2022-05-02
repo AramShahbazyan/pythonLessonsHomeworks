@@ -11,7 +11,7 @@ from random import randint
 def first_matrix(mat_range: int):
     mat_1 = []
     for i in range(mat_range):
-        mat_1_list = [randint(10, 99) for i in range(mat_range)]
+        mat_1_list = [randint(10, 99) for _ in range(mat_range)]
         mat_1.append(mat_1_list)
     for j in mat_1:
         print(j)
@@ -22,7 +22,7 @@ def first_matrix(mat_range: int):
 def second_matrix(mat_range: int):
     mat_2 = []
     for i in range(mat_range):
-        mat_2_list = [randint(10, 99) for i in range(mat_range)]
+        mat_2_list = [randint(10, 99) for _ in range(mat_range)]
         mat_2.append(mat_2_list)
     for j in mat_2:
         print(j)

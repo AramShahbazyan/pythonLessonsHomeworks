@@ -7,7 +7,7 @@ from random import randint
 def matrix(mat_len: int):
     mat = []
     for i in range(mat_len):
-        mat_ls = [randint(10, 99) for i in range(mat_len)]
+        mat_ls = [randint(10, 99) for _ in range(mat_len)]
         mat.append(mat_ls)
     for i in mat:
         print(i)
